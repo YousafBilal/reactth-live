@@ -1,0 +1,74 @@
+<!-- import React ,{useState} from 'react'
+
+
+export default function App() {
+  const [name,setName]=useState("")
+const [email,setEmail]=useState("")
+const [password,setPassword]=useState("")
+const [name1,setName1]=useState("")
+const [email1,setEmail1]=useState("")
+const [password1,setPassword1]=useState("")
+
+  console.log(name1 , 'state');
+
+
+const handlesubmit=()=>{
+  localStorage.setItem("name",name)
+  localStorage.setItem("email",email)
+  localStorage.setItem("password",password)
+ 
+}
+
+
+const handleprint=()=>{
+ let name1= localStorage.getItem("name")
+ console.log(name1 , "name");
+ setName1(name1)
+  let email1=localStorage.getItem("email")
+  setEmail1(email1)
+  let password1=localStorage.getItem("password")
+  setPassword1(password1)
+
+}
+
+ return(
+  <>
+
+<div className="h-54 w-50% bg-gray" >
+  <input  
+  type="name" 
+   placeholder='Enteryour Name'
+    onChange={(e)=>{setName(e.target.value)}}
+    />
+    <input 
+    type="email"
+     placeholder='Enter your email' 
+     onChange={(e)=>{setEmail(e.target.value)}}
+     />
+    <input 
+     type="password" 
+     placeholder='Enter your password' 
+     onChange={(e)=>{setPassword(e.target.value)}}
+     />
+
+    <button onClick={handlesubmit}>Submit</button>
+    <button onClick={handleprint}> Print Data</button>
+
+</div>
+<div>
+<div>
+
+  {name1}
+</div>
+<div>
+  {email1}
+</div>
+<div>
+  {password1}
+</div>
+</div>
+  </>
+ )
+
+
+} -->

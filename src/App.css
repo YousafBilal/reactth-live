@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img1{
+  background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(../public/images/img1.jpg);
+  background-size: 100% 100%;
+}
+
+.img2{
+  background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(../public/images/img2.jpg);
+  background-size: 100% 150%;
+}
+
+.h1{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  animation-name: bilal;
+  animation-duration: 1.5s;
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bilal{
+  0% {
+    color: red;
+}
+
+25% {
+    color: #ff0;
+}
+50% {
+    color: #00f;
+}
+70% {
+    color: pink;
+}
+90% {
+    color: brown;
+}
+100% {
+    color: green;
+}  
+} 
+
+
+
+
+.h2{
+ 
+  color: #fff;
+    font-size: 50px;
+    padding-top: 180px;
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    font-weight: bold;
+    letter-spacing: .15em;
+    animation: developer 3.5s steps(30),
+    blink-caret .75s step-end infinite;
+ }
+ @keyframes developer{
+  0% {
+    width: 0;
+}
+
+100% {
+    width: 100%;
+}
+ }
+
+ @keyframes blink-caret{
+
+  0%, 100% {
+    border-color: transparent;
+}
+
+50% {
+    border-color: orange;
+}
+ }
