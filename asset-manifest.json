@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reactth-live/static/css/main.6bd33065.css",
+    "main.js": "/reactth-live/static/js/main.03823883.js",
+    "static/js/787.b12100b7.chunk.js": "/reactth-live/static/js/787.b12100b7.chunk.js",
+    "static/media/img1.jpg": "/reactth-live/static/media/img1.f2d1d59ab3a3f4adc495.jpg",
+    "static/media/img2.jpg": "/reactth-live/static/media/img2.044ee978fa04f981c5f0.jpg",
+    "index.html": "/reactth-live/index.html",
+    "main.6bd33065.css.map": "/reactth-live/static/css/main.6bd33065.css.map",
+    "main.03823883.js.map": "/reactth-live/static/js/main.03823883.js.map",
+    "787.b12100b7.chunk.js.map": "/reactth-live/static/js/787.b12100b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bd33065.css",
+    "static/js/main.03823883.js"
+  ]
+}
